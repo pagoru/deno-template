@@ -1,8 +1,9 @@
 # Deno Template
 
+---------
 ### Usage
 
-Start the project:
+#### Start the project:
 
 ```
 deno task start
@@ -10,6 +11,12 @@ deno task start
 
 This will watch the project directory and restart as necessary.
 
+#### Run tests:
+
+```
+deno task test
+```
+---------
 ### Webstorm types
 
 Run:
