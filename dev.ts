@@ -4,4 +4,4 @@ const env = await config();
 Object.keys(env)
     .forEach((key) => Deno.env.set(key, env[key]));
 
-import './src/main.ts';
+import './main.ts';
